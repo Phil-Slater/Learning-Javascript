@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <form id="stockQuoteForm">
+        <input type="text" id="quoteTextBox" required />
+        <input type="text" id="ssnTextBox" placeholder="SSN" required pattern="^\d{3}-\d{2}-\d{4}$" />
+        <input type="password" placeholder="password" />
+        <input type="date" />
+        <button id=" stockButton">Show Quotes</button>
+    </form>
+
+    <p>Enter APLE, AMAZ, ALBAB, GOOG, or FB</p>
+
+    <h2 id="stockHeading"></h2>
+
+    <script src="stockQuotes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
