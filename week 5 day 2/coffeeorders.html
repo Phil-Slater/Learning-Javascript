@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Orders Assignment</title>
+</head>
+
+<body>
+    <button id="viewOrdersButton">View All Orders</button>
+    <br>
+    <br>
+    <h2>Add new coffee order:</h2>
+    <div>
+        <form type="submit" id="addCoffeeOrderForm">
+            <input type="email" placeholder="Email addresss" id="orderEmailBox" required>
+            <br>
+            <input type="text" placeholder="Coffee type" required id="coffeeTypeBox">
+            <div>Select size:
+                <select id="sizeSelect">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+            <button>Submit Order</button>
+        </form>
+        <div id="orderSuccessDiv"></div>
+    </div>
+    <h2>Search for a coffee order:</h2>
+    <form type="submit" id="emailSearchForm">
+        <input type="email" placeholder="Email address" id="emailSearchBox"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <button>Submit</button>
+    </form>
+    <div id="coffeePrice"></div>
+    <div id="ordersDiv"></div>
+
+
+    <h2>Delete your coffee order:</h2>
+    <form type="submit" id="emailDeleteForm">
+        <input type="email" placeholder="Email address" id="emailDeleteBox"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <button>Submit</button>
+    </form>
+    <div id="orderDeletedDiv"></div>
+
+    <script src="coffeeorders.js"></script>
+</body>
+
+</html>
