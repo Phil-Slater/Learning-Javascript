@@ -1,0 +1,18 @@
+Github branches
+
+git checkout -b (branch name) (parent branch)
+    - creates new branch off of parent branch
+
+get checkout master
+     - switches to master branch
+
+get checkout (branch name)
+    - switches to (branch name)
+
+git pull
+
+git merge (branch name) -m 'commit message'
+
+
+git branch -d (branch name)
+    - deletes local branch (branch name)

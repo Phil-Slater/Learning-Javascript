@@ -1,0 +1,40 @@
+Software development practices
+
+- Waterfall
+- Agile Development
+
+Waterfall
+
+1. requirement/analysis
+2. design
+3. coding
+4. testing
+5. maintenance
+
+Agile development
+
+- Sprints - 1/2/3 week sprints - 2 weeks is most common
+- Scrum - developer meeting
+- Unit testing
+- Pair programming
+- Code reviews
+- Continuous deployment
+- Retrospect - sit down with team and review what went well & what didn't go well with the sprint
+
+1. brainstorm
+2. design
+3. development
+4. quality assurance
+5. deployment
+6. delivered to client - then next iteration - back to #1
+
+
+Scrum:
+- what did you do yesterday?
+- what are your plans for today?
+- are there any blockers? (are you stuck)
+
+
+Business people/doamin experts
+
+Ubiquitous language
